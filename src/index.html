@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Longest Common Subsequence</title>
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="display-4">LCS</h2>
+        <h4 class="display-5">Longest Common Subsequence</h4>
+    </header>
+    
+    <section id="result">
+        <div>
+            <b>Select a text file:</b> 
+            <input type="file" id="fileInput">
+            <pre><span id="pre"><b>Length:</b></span> <span id="length">0</span></pre>
+            <pre><span id="pre"><b>Time:</b></span> <span id="time"></span> ms</pre>  
+            <pre><span id="pre"><b>LCS:</b></span> <span id="lcs"> </span></pre>
+        </div>
+        <hr>
+        <p><b>File Content</b></p>
+        <pre id="fileDisplayArea"><pre>
+    </section>
+            
+    <script src="LCS.js"></script>
+</body>
+</html>
